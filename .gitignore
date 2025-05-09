@@ -1,0 +1,107 @@
+# API 키 및 환경 변수
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# 파이썬 가상환경
+venv/
+env/
+ENV/
+.venv/
+.python-version
+pythonenv*
+rag/
+
+# 파이썬 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.so
+.hypothesis/
+
+# 주피터 노트북
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# 벡터 데이터베이스 및 임베딩
+*.embeddings
+vector_store/
+chroma/
+faiss/
+pinecone/
+*.idx
+*.faiss
+
+# 모델 파일 및 체크포인트
+models/
+*.model
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.savedmodel
+checkpoints/
+
+# 데이터 파일 (필요시 주석 처리)
+data/
+*.csv
+*.json
+*.xml
+*.jsonl
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+
+# 로그 파일
+logs/
+*.log
+langchain.log
+langsmith.log
+
+# 생성된 파일
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE 및 에디터 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.vim/
+
+# 디펜던시 관리
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# LangSmith
+.langsmith/
+.langchain/
+
+# 기타 중요 파일
+credentials.json
+token.json
+*.pem
+*.key
+*.crt
+secrets.yaml
